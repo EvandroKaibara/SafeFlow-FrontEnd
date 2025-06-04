@@ -127,6 +127,32 @@ footer{
         font-weight: 700;
     }
 
+    & .a--footer {
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.3s ease;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 0%;
+            background-color: currentColor;
+            transition: width 0.3s ease;
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
+
+        &:hover {
+            color: var(--cinza-claro);
+        }   
+    } 
+
     & .container--footer-newsletter{
         width: 20%;
     }
