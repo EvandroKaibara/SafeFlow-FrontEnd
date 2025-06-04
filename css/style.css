@@ -213,3 +213,114 @@ footer{
     }
 }
 
+@media (max-width: 1200px) {
+  main .container--solucao-bloco-1,
+  main .container--solucao-bloco-3,
+  main .container--solucao-bloco-4 {
+    flex-direction: column;
+    padding: 0 5rem;
+  }
+
+  main .img--bloco-1,
+  main .img-bloco-3,
+  main .img-bloco-4 {
+    margin: 2rem 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+  footer .container--footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+  }
+
+  footer .container--footer-newsletter {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  main .h1--solucao {
+    font-size: 32px;
+  }
+
+  main .h2--solucao {
+    font-size: 24px;
+  }
+
+  main .p--solucao {
+    font-size: 16px;
+  }
+
+  main .container--solucao {
+    padding: 2rem;
+  }
+
+  main .container--solucao-bloco-1,
+  main .container--solucao-bloco-2,
+  main .container--solucao-bloco-3,
+  main .container--solucao-bloco-4,
+  main .container--solucao-bloco-5 {
+    padding: 0 2rem;
+  }
+
+  header .img--header {
+    width: 30vw;
+  }
+
+  footer .container--footer {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  footer .container--footer-sobre,
+  footer .container--footer-campanhia,
+  footer .container--footer-suporte,
+  footer .container--footer-newsletter {
+    display: none;
+  }
+
+  #btnTopo {
+    width: 40px;
+    height: 40px;
+  }
+
+  #btnTopo .img--topo {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  main .h1--solucao {
+    font-size: 26px;
+  }
+
+  main .h2--solucao {
+    font-size: 20px;
+  }
+
+  main .p--solucao {
+    font-size: 14px;
+  }
+
+  .carousel-img {
+    height: 40vh;
+  }
+
+  footer .container--footer {
+    padding: 1.5rem;
+    font-size: 12px;
+  }
+
+  .input--footer {
+    width: 60%;
+  }
+
+  .button--footer {
+    width: 30px;
+    height: 30px;
+  }
+}
