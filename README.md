@@ -10,6 +10,33 @@
 - SASS
 - Bootstrap
 
+## 📈 Como Iniciar o Projeto Localmente
+
+## 🚀 Como rodar o projeto localmente
+
+Primeiramente, clone o repositório para sua máquina:
+
+```bash
+git clone https://github.com/EvandroKaibara/SafeFlow-FrontEnd.git
+```
+
+Em seguida, abra o projeto no Visual Studio Code:
+
+1. Abra o VS Code.
+2. No menu superior, clique em **File > Open Folder...** e selecione a pasta do projeto que você acabou de clonar.
+
+## ▶️ Executando com Live Server
+
+Certifique-se de que você possui a extensão **Live Server** instalada no VS Code. Se ainda não tiver, você pode instalá-la pela aba de extensões (`Ctrl+Shift+X`) buscando por **Live Server**.
+
+Para rodar o projeto:
+
+1. Clique com o botão direito no arquivo `index.html` (ou o arquivo inicial da aplicação).
+2. Selecione **"Open with Live Server"**.
+3. O navegador será aberto automaticamente com a aplicação rodando localmente.
+
+> 🔁 A cada alteração feita nos arquivos, o Live Server irá atualizar a página automaticamente.
+
 ## 🤝 Equipe
 
 - Front End
