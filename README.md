@@ -12,8 +12,6 @@
 
 ## 📈 Como Iniciar o Projeto Localmente
 
-## 🚀 Como rodar o projeto localmente
-
 Primeiramente, clone o repositório para sua máquina:
 
 ```bash
