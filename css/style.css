@@ -122,6 +122,13 @@ main{
         padding: 0 15rem;
         margin-bottom: 3rem;
     }
+
+    & .container--video{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 5vh;
+    }
 }
 
 footer{
@@ -227,6 +234,10 @@ footer{
     margin: 2rem 0 0;
     width: 100%;
     height: auto;
+  }
+
+  main .container--video{
+      width: 70%
   }
 
   footer .container--footer {
